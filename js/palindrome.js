@@ -1,7 +1,7 @@
 let word
 
 do{
-    word = (prompt('Inserisci una parola')).toLowerCase
+    word = (prompt('Inserisci una parola')).toLowerCase()
 } while(word == '')
 
 function wordMiddle(word){
